@@ -20,7 +20,7 @@ If you are using Python 2, try instead:</br>
 
 **Install requirements on Windows**
 
-Download the ZIP file, unzip it and then enter the command line to install the required modules:
+Download the ZIP file, unzip it and then enter the command line to install the required modules:</br>
 `python -m pip install -r requirements.txt`
 
 ## Basic Usage
