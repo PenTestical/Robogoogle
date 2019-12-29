@@ -7,7 +7,7 @@ Twitter: https://twitter.com/PTestical
 Github: https://github.com/pentestical
 E-Mail: pentestical@protonmail.com
 
-If you have improvement suggestions or something goes wrong, feel free to contact me! Made with love. <3
+If you have improvement suggestions or something goes wrong, feel free to contact me! Modify it like you want. Made with love. <3
 '''
 
 import webbrowser, requests, bs4, sys, argparse, os, random, time
