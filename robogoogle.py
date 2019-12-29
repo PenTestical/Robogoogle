@@ -10,7 +10,7 @@ E-Mail: pentestical@protonmail.com
 If you have improvement suggestions or something goes wrong, feel free to contact me! Made with love. <3
 '''
 
-import webbrowser, requests, bs4, sys, argparse, os
+import webbrowser, requests, bs4, sys, argparse, os, random, time
 
 #CLI COMMANDS
 #custom usage message
@@ -32,5 +32,8 @@ response.raise_for_status()
 soup = bs4.BeautifulSoup(response.text, 'lxml')
 linkElements = soup.select('div#main > div > div > div > a')
 number_of_links = min(int(args.number), len(linkElements))
+delays = [0.1, 0.8, 0.3, 0.4, 0.6]
+delay = random.choice(delays)
 for i in range(number_of_links):
     webbrowser.open('http://google.com' + linkElements[i].get("href"))
+    time.sleep(delay)
