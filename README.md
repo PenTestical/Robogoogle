@@ -8,17 +8,19 @@ You need [pip](https://pypi.org/project/pip-download/) to download the required 
 **Install requirements on Linux (Python3)**
 
 If you have Python 3, use the command line: </br>
+`git clone https://github.com/PenTestical/Robogoogle.git` </br>
 `pip3 install -r requirements.txt`</br>
 This will install the required modules bs4, webbrowser, requests (most important) and few other.
 
 **Install requirements on Linux (Python2)**
 
 If you are using Python 2, try instead:</br>
+`git clone https://github.com/PenTestical/Robogoogle.git` </br>
 `pip install -r requirements.txt`</br>
 
 **Install requirements on Windows**
 
-To install the required modules on Windows, enter the command line:</br>
+Download the ZIP file, unzip it and then enter the command line to install the required modules:
 `python -m pip install -r requirements.txt`
 
 ## Basic Usage
