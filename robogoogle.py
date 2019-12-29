@@ -12,8 +12,7 @@ If you have improvement suggestions or something goes wrong, feel free to contac
 
 import webbrowser, requests, bs4, sys, argparse, os, random, time
 
-#CLI COMMANDS
-#custom usage message
+#help menu
 def msg(name=None):
     return '''\t\t\t\tpython robogoogle.py SEARCHWORD
 example search for C++: \tpython robogoogle.py C++'''
