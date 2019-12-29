@@ -27,7 +27,7 @@ input_Search = args.Search
 
 #top results from a google search
 print("Let's google like a boss...")
-response = requests.get('https://google.com/search?q=' + ' '.join(sys.argv[1:]))
+response = requests.get('https://www.google.com/search?q=' + ' '.join(sys.argv[1:]))
 response.raise_for_status()
 soup = bs4.BeautifulSoup(response.text, 'lxml')
 linkElements = soup.select('div#main > div > div > div > a')
