@@ -1,4 +1,4 @@
 beautifulsoup4==4.8.2
-certifi==2019.11.28
+certifi==2022.12.7
 lxml==4.4.2
 requests==2.22.0
